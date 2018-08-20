@@ -1,2 +1,3 @@
 # smart-lampa
-It is smart light project for smart house. This project will make possible to manage to light by mobile phone or web application.
+Проект умной лампочки. 
+Опубликованы серверная часть на python tornado, которая управляет web-socket соединениями мобильного устройства и контроллеров (esp8266), позволяющая общаться им между собой. И код для прошивки контроллера, который программируется при помощи micropython.
